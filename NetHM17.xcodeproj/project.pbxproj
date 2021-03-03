@@ -23,6 +23,8 @@
 		2DB599F325E65EA000654E33 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB599F225E65EA000654E33 /* UserCell.swift */; };
 		2DB599F725E65EE400654E33 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB599F625E65EE400654E33 /* User.swift */; };
 		2DB59A0425E6601600654E33 /* UserActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB59A0325E6601600654E33 /* UserActionCell.swift */; };
+		8090393225EF9BEC00ABFE7B /* Alboms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8090393125EF9BEC00ABFE7B /* Alboms.storyboard */; };
+		8090393525EF9C8200ABFE7B /* AlbomsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090393425EF9C8200ABFE7B /* AlbomsTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		2DB599F225E65EA000654E33 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		2DB599F625E65EE400654E33 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2DB59A0325E6601600654E33 /* UserActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActionCell.swift; sourceTree = "<group>"; };
+		8090393125EF9BEC00ABFE7B /* Alboms.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alboms.storyboard; sourceTree = "<group>"; };
+		8090393425EF9C8200ABFE7B /* AlbomsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbomsTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				2DB599D625E652FE00654E33 /* Main.storyboard */,
+				8090393125EF9BEC00ABFE7B /* Alboms.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 		2DB599FD25E65F5600654E33 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8090393025EF9BBC00ABFE7B /* AlbomsPhotos */,
 				2DB59A0625E677D600654E33 /* MainActions */,
 				2DB59A0E25E6781100654E33 /* Image */,
 				2DB59A0A25E677F500654E33 /* Users */,
@@ -175,6 +181,14 @@
 				2DB599E925E6538000654E33 /* ImageViewController.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		8090393025EF9BBC00ABFE7B /* AlbomsPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				8090393425EF9C8200ABFE7B /* AlbomsTVC.swift */,
+			);
+			path = AlbomsPhotos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +250,7 @@
 			files = (
 				2DB599DD25E652FE00654E33 /* LaunchScreen.storyboard in Resources */,
 				2DB599DA25E652FE00654E33 /* Assets.xcassets in Resources */,
+				8090393225EF9BEC00ABFE7B /* Alboms.storyboard in Resources */,
 				2DB599D825E652FE00654E33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +275,7 @@
 				2DB599E725E6533F00654E33 /* MainViewController.swift in Sources */,
 				2DB599F725E65EE400654E33 /* User.swift in Sources */,
 				2D6ADBCB25ED0540009EE2C2 /* PostsTableViewController.swift in Sources */,
+				8090393525EF9C8200ABFE7B /* AlbomsTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

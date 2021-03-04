@@ -11,8 +11,8 @@ class UserCell: UITableViewCell {
     func configure(with user: User) {
         nameLbl.text = user.name
         usernameLbl.text = user.username
-        emailLbl.text = user.email
-        phoneLbl.text = user.phone
-        websiteLbl.text = user.website
+//        emailLbl.text = user.email
+//        phoneLbl.text = user.phone
+//        websiteLbl.text = user.website
     }
 }

@@ -35,7 +35,7 @@
 		2D6ADBC625ED00B0009EE2C2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2D6ADBCA25ED0540009EE2C2 /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
 		2D6ADBD525ED05A6009EE2C2 /* CommentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewController.swift; sourceTree = "<group>"; };
-		2DB599CD25E652FE00654E33 /* NetHM17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetHM17.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB599CD25E652FE00654E33 /* Lesson18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson18.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB599D025E652FE00654E33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DB599D225E652FE00654E33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2DB599D725E652FE00654E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		2DB599C425E652FE00654E33 = {
 			isa = PBXGroup;
 			children = (
-				2DB599CF25E652FE00654E33 /* NetHW17 */,
+				2DB599CF25E652FE00654E33 /* Lesson18 */,
 				2DB599CE25E652FE00654E33 /* Products */,
 				435F0AE2ECC4300350B4814E /* Pods */,
 				41EDE1D88146C65297A21FD8 /* Frameworks */,
@@ -105,12 +105,12 @@
 		2DB599CE25E652FE00654E33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DB599CD25E652FE00654E33 /* NetHM17.app */,
+				2DB599CD25E652FE00654E33 /* Lesson18.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2DB599CF25E652FE00654E33 /* NetHW17 */ = {
+		2DB599CF25E652FE00654E33 /* Lesson18 */ = {
 			isa = PBXGroup;
 			children = (
 				2DB599FB25E65F3B00654E33 /* Models */,
@@ -118,7 +118,7 @@
 				2DB599FD25E65F5600654E33 /* Controllers */,
 				2DB599FF25E65F6000654E33 /* System32 */,
 			);
-			path = NetHW17;
+			path = Lesson18;
 			sourceTree = "<group>";
 		};
 		2DB599FA25E65F3300654E33 /* Views */ = {
@@ -221,9 +221,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2DB599CC25E652FE00654E33 /* NetHM17 */ = {
+		2DB599CC25E652FE00654E33 /* Lesson18 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DB599E125E652FE00654E33 /* Build configuration list for PBXNativeTarget "NetHM17" */;
+			buildConfigurationList = 2DB599E125E652FE00654E33 /* Build configuration list for PBXNativeTarget "Lesson18" */;
 			buildPhases = (
 				6F0042600C69701A55259039 /* [CP] Check Pods Manifest.lock */,
 				2DB599C925E652FE00654E33 /* Sources */,
@@ -235,9 +235,9 @@
 			);
 			dependencies = (
 			);
-			name = NetHM17;
+			name = Lesson18;
 			productName = NetClassWork16;
-			productReference = 2DB599CD25E652FE00654E33 /* NetHM17.app */;
+			productReference = 2DB599CD25E652FE00654E33 /* Lesson18.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2DB599C825E652FE00654E33 /* Build configuration list for PBXProject "NetHM17" */;
+			buildConfigurationList = 2DB599C825E652FE00654E33 /* Build configuration list for PBXProject "Lesson18" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -267,7 +267,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DB599CC25E652FE00654E33 /* NetHM17 */,
+				2DB599CC25E652FE00654E33 /* Lesson18 */,
 			);
 		};
 /* End PBXProject section */
@@ -496,16 +496,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7YF6HND7PM;
-				INFOPLIST_FILE = "$(SRCROOT)/NetHW17/System32/Info.plist";
+				CURRENT_PROJECT_VERSION = 104;
+				DEVELOPMENT_TEAM = 879U287R5Q;
+				INFOPLIST_FILE = "$(SRCROOT)/Lesson18/System32/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = k.0ff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -516,23 +518,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7YF6HND7PM;
-				INFOPLIST_FILE = "$(SRCROOT)/NetHW17/System32/Info.plist";
+				CURRENT_PROJECT_VERSION = 104;
+				DEVELOPMENT_TEAM = 879U287R5Q;
+				INFOPLIST_FILE = "$(SRCROOT)/Lesson18/System32/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = k.0ff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2DB599C825E652FE00654E33 /* Build configuration list for PBXProject "NetHM17" */ = {
+		2DB599C825E652FE00654E33 /* Build configuration list for PBXProject "Lesson18" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DB599DF25E652FE00654E33 /* Debug */,
@@ -541,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DB599E125E652FE00654E33 /* Build configuration list for PBXNativeTarget "NetHM17" */ = {
+		2DB599E125E652FE00654E33 /* Build configuration list for PBXNativeTarget "Lesson18" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DB599E225E652FE00654E33 /* Debug */,

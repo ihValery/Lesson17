@@ -1,4 +1,4 @@
 # Lesson17
 Изучаем Alamofire
 и AlamofireImage
-плис нативные запросы
+плюс нативные запросы
